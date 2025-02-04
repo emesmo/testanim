@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation de Dilution Chimique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="beaker">
+            <div class="water"></div>
+            <div class="solute"></div>
+        </div>
+        <button onclick="startAnimation()">Commencer la dilution</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
