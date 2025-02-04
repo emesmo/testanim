@@ -8,11 +8,17 @@
 </head>
 <body>
     <div class="container">
+        <div class="controls">
+            <button onclick="pourLiquid(1)">Verser 1mL</button>
+            <button onclick="pourLiquid(2)">Verser 2mL</button>
+            <button onclick="pourLiquid(5)">Verser 5mL</button>
+        </div>
         <div class="beaker">
             <div class="water"></div>
-            <div class="solute"></div>
+            <div class="pipette"></div>
+            <div class="redLiquid"></div>
         </div>
-        <button onclick="startAnimation()">Commencer la dilution</button>
+        <button id="resetButton" onclick="resetExperiment()" style="display:none;">Recommencer</button>
     </div>
     <script src="script.js"></script>
 </body>
